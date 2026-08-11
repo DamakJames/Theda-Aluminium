@@ -10,7 +10,7 @@ export const metadata = {
 export default function ServicesPage() {
   return (
     <main>
-      <section className="hero-section inner-header" style={{ backgroundImage: 'linear-gradient(135deg, rgba(10, 61, 145, 0.85) 0%, rgba(10, 61, 145, 0.7) 100%), url(/image/green-long-span-industrial-roofing.jpg)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+      <section className="hero-section inner-header" style={{ backgroundImage: 'linear-gradient(135deg, rgba(10, 61, 145, 0.85) 0%, rgba(10, 61, 145, 0.7) 100%), url(/image/theda-engineering-team-site-visit.png)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <div className="container hero-content" style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
           <h1 className="hero-title" style={{ color: 'var(--white)' }}>Our Services</h1>
           <p className="hero-desc" style={{ color: 'rgba(255,255,255,0.9)' }}>Comprehensive roofing and structural solutions tailored to your needs.</p>
