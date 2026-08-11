@@ -11,7 +11,7 @@ export default function ProjectsPage() {
 
   return (
     <main>
-      <section className="hero-section" style={{ padding: '80px 0', minHeight: 'auto', background: 'var(--gray-800)' }}>
+      <section className="hero-section" style={{ padding: '40px 0', minHeight: 'auto', backgroundImage: 'linear-gradient(135deg, rgba(10, 61, 145, 0.85) 0%, rgba(10, 61, 145, 0.7) 100%), url(https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1920&q=80)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <div className="container hero-content" style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
           <h1 className="hero-title" style={{ color: 'var(--white)' }}>Our Projects Gallery</h1>
           <p className="hero-desc" style={{ color: 'rgba(255,255,255,0.8)' }}>Take a look at some of the structures we&apos;ve proudly roofed across Nigeria.</p>

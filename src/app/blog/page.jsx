@@ -10,7 +10,7 @@ export const metadata = {
 export default function BlogPage() {
   return (
     <main>
-      <section className="hero-section" style={{ padding: '80px 0', minHeight: 'auto', background: 'var(--gray-800)' }}>
+      <section className="hero-section" style={{ padding: '40px 0', minHeight: 'auto', backgroundImage: 'linear-gradient(135deg, rgba(10, 61, 145, 0.85) 0%, rgba(10, 61, 145, 0.7) 100%), url(https://images.unsplash.com/photo-1437603568260-1950d3ca6eab?auto=format&fit=crop&w=1920&q=80)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <div className="container hero-content" style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
           <h1 className="hero-title" style={{ color: 'var(--white)' }}>Roofing Insights & News</h1>
           <p className="hero-desc" style={{ color: 'rgba(255,255,255,0.8)' }}>

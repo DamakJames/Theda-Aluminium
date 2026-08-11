@@ -3,6 +3,7 @@ import { GoogleAnalytics } from '@next/third-parties/google';
 import "./globals.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import WhatsAppButton from "../components/WhatsAppButton";
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://thedaaluminium.com'),
@@ -42,6 +43,7 @@ export default function RootLayout({
           {children}
         </main>
         <Footer />
+        <WhatsAppButton />
       </body>
       {gaId && <GoogleAnalytics gaId={gaId} />}
     </html>

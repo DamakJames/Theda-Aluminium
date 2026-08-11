@@ -96,7 +96,7 @@ export default function HomePage() {
             </div>
             <div className="about-image">
               <img 
-                src="https://images.unsplash.com/photo-1541888081622-155e81f1e914?auto=format&fit=crop&w=800&q=80" 
+                src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=800&q=80" 
                 alt="Roof construction site" 
                 style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: 'var(--radius-lg)' }}
               />

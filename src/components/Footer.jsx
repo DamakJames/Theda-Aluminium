@@ -103,7 +103,7 @@ export default function Footer() {
         
         <div className="footer-bottom" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '16px' }}>
           <p style={{ margin: 0 }}>&copy; {new Date().getFullYear()} THEDA Aluminium Ltd. All Rights Reserved.</p>
-          <p style={{ margin: 0, fontWeight: '600' }}>RC No: 1263390</p>
+          <p className="rc-number" style={{ margin: 0, fontWeight: '600' }}>RC No: 1263390</p>
         </div>
       </div>
     </footer>
