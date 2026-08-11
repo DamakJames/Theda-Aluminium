@@ -22,7 +22,7 @@ export const blogPosts = [
     `,
     author: 'THEDA Engineering Team',
     date: '2023-10-15',
-    image_url: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=80',
+    image_url: '/image/residential-stone-coated-roofing.jpg',
   },
   {
     id: 2,
@@ -53,6 +53,6 @@ export const blogPosts = [
     `,
     author: 'Maintenance Division',
     date: '2023-11-02',
-    image_url: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80',
+    image_url: '/image/long-span-roof-edge-detail.jpg',
   }
 ];
