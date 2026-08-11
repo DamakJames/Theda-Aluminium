@@ -274,9 +274,9 @@ h1, h2, h3, h4, h5, h6 {
   min-height: 600px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   color: var(--white);
-  text-align: center;
+  text-align: left;
   overflow: hidden;
 }
 
@@ -329,7 +329,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to right, rgba(5, 45, 105, 0.85) 0%, rgba(5, 45, 105, 0.4) 50%, rgba(5, 45, 105, 0.1) 100%);
+  background: linear-gradient(to right, rgba(5, 45, 105, 0.95) 0%, rgba(5, 45, 105, 0.8) 45%, transparent 65%, transparent 100%);
   z-index: 5;
 }
 
@@ -381,8 +381,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero-content {
-  max-width: 800px;
-  margin: 0 auto;
+  max-width: 650px;
+  margin: 0;
+  padding-left: 5%;
 }
 
 .hero-subtitle-badge {
@@ -422,7 +423,7 @@ h1, h2, h3, h4, h5, h6 {
 .hero-buttons {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 16px;
 }
 
@@ -791,6 +792,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 768px) {
+  .hero-overlay {
+    background: linear-gradient(to right, rgba(5, 45, 105, 0.95) 0%, rgba(5, 45, 105, 0.85) 100%);
+  }
   .hero-title {
     font-size: 2.5rem;
   }

@@ -82,19 +82,18 @@ export default function HeroSlider() {
         <div className="hero-trust-line">
           {slides[currentSlide].trust}
         </div>
-      </div>
-      
-      <div className="hero-indicators">
-        {slides.map((_, index) => (
-          <button 
-            key={index} 
-            className={`indicator ${index === currentSlide ? 'active' : ''}`}
-            onClick={() => setCurrentSlide(index)}
-            aria-label={`Go to slide ${index + 1}`}
-          >
-            {String(index + 1).padStart(2, '0')}
-          </button>
-        ))}
+        <div className="hero-indicators" style={{ marginTop: '40px', display: 'flex', gap: '15px', alignItems: 'center' }}>
+          {slides.map((_, index) => (
+            <button 
+              key={index} 
+              className={`indicator ${index === currentSlide ? 'active' : ''}`}
+              onClick={() => setCurrentSlide(index)}
+              aria-label={`Go to slide ${index + 1}`}
+            >
+              {String(index + 1).padStart(2, '0')}
+            </button>
+          ))}
+        </div>
       </div>
     </section>
   );
