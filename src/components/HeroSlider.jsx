@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 const slides = [
   {
-    image: '/image/theda-aluminium-roofing-team.jpg',
+    image: '/image/theda-residential-roofing-installation.png',
     eyebrow: 'PREMIUM ROOFING & CONSTRUCTION SOLUTIONS',
     title: 'Building Strong Roofs.\nDelivering Excellence.',
     desc: 'Quality roofing materials, structural solutions and expert installation for residential, commercial and industrial projects across Nigeria.',
@@ -16,24 +16,26 @@ const slides = [
     button2Link: '#projects'
   },
   {
-    image: '/image/large-hall-steel-truss-roof-1.jpg',
+    image: '/image/theda-structural-steel-installation.png',
     eyebrow: 'STRUCTURAL ROOFING SOLUTIONS',
     title: 'Engineered for Strength.\nBuilt to Last.',
     desc: 'Heavy-duty steel roofing structures designed and installed for warehouses, factories and large-scale commercial projects.',
     trust: 'STRUCTURAL STEEL  •  FABRICATION  •  INSTALLATION',
     button1: 'EXPLORE STRUCTURAL SOLUTIONS →',
     button1Link: '#services',
-    button2: null
+    button2: 'GET A QUOTE →',
+    button2Link: '#contact'
   },
   {
-    image: '/image/residential-stone-coated-roofing.jpg',
+    image: '/image/theda-industrial-roofing-engineers.png',
     eyebrow: 'PREMIUM ROOFING PRODUCTS',
-    title: 'Roofing That Looks Good.\nPerformance That Lasts.',
+    title: 'Roofing That\nLooks Good.\nPerformance\nThat Lasts.',
     desc: 'Premium aluminium and steel roofing sheets available in modern profiles, colours and finishes.',
-    trust: 'STEP-TILE  •  METCOPPO  •  LONGSPAN',
-    button1: 'EXPLORE ROOFING PRODUCTS →',
-    button1Link: '#services',
-    button2: null
+    trust: 'STEP-TILE  •  METCOPO  •  LONGSPAN',
+    button1: 'VIEW PRODUCTS CATALOG →',
+    button1Link: '#products',
+    button2: 'CONTACT SALES →',
+    button2Link: '#contact'
   }
 ];
 
