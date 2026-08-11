@@ -6,18 +6,34 @@ import Link from 'next/link';
 const slides = [
   {
     image: '/image/theda-aluminium-roofing-team.jpg',
+    eyebrow: 'PREMIUM ROOFING & CONSTRUCTION SOLUTIONS',
     title: 'Building Strong Roofs.\nDelivering Excellence.',
-    desc: 'Top-quality roofing sheets, roof structures and maintenance services for residential, commercial, and industrial projects across Nigeria.',
+    desc: 'Quality roofing materials, structural solutions and expert installation for residential, commercial and industrial projects across Nigeria.',
+    trust: '✓ Quality Materials   ✓ Expert Installation   ✓ Nationwide Service',
+    button1: 'GET A FREE QUOTE →',
+    button1Link: '#contact',
+    button2: 'VIEW OUR PROJECTS →',
+    button2Link: '#projects'
   },
   {
     image: '/image/large-hall-steel-truss-roof-1.jpg',
-    title: 'Expert Structural\nSteel Roofing.',
-    desc: 'Unmatched durability for warehouses, factories, and massive commercial facilities built to stand the test of time.',
+    eyebrow: 'STRUCTURAL ROOFING SOLUTIONS',
+    title: 'Engineered for Strength.\nBuilt to Last.',
+    desc: 'Heavy-duty steel roofing structures designed and installed for warehouses, factories and large-scale commercial projects.',
+    trust: 'STRUCTURAL STEEL  •  FABRICATION  •  INSTALLATION',
+    button1: 'EXPLORE STRUCTURAL SOLUTIONS →',
+    button1Link: '#services',
+    button2: null
   },
   {
     image: '/image/residential-stone-coated-roofing.jpg',
-    title: 'Premium Aluminium\nStep-Tile & Metcopo.',
-    desc: 'Aesthetic appeal meets extreme weather resistance. Transform your home with our elegant roofing designs.',
+    eyebrow: 'PREMIUM ROOFING PRODUCTS',
+    title: 'Roofing That Looks Good.\nPerformance That Lasts.',
+    desc: 'Premium aluminium and steel roofing sheets available in modern profiles, colours and finishes.',
+    trust: 'STEP-TILE  •  METCOPPO  •  LONGSPAN',
+    button1: 'EXPLORE ROOFING PRODUCTS →',
+    button1Link: '#services',
+    button2: null
   }
 ];
 
@@ -27,7 +43,7 @@ export default function HeroSlider() {
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % slides.length);
-    }, 5000); // Change slide every 5 seconds
+    }, 6500); // Change slide every 6.5 seconds
 
     return () => clearInterval(timer);
   }, []);
@@ -38,34 +54,33 @@ export default function HeroSlider() {
         <div 
           key={index} 
           className={`hero-slide ${index === currentSlide ? 'active' : ''}`}
-          style={{ backgroundImage: `linear-gradient(135deg, rgba(10, 61, 145, 0.85) 0%, rgba(10, 61, 145, 0.6) 100%), url('${slide.image}')` }}
+          style={{ backgroundImage: `url('${slide.image}')` }}
         >
         </div>
       ))}
       
+      <div className="hero-overlay"></div>
+      
       <div className="container hero-content" style={{ position: 'relative', zIndex: 10 }}>
-        <span className="hero-subtitle-badge">PREMIUM ROOFING & CONSTRUCTION SOLUTIONS</span>
+        <span className="hero-subtitle-badge">{slides[currentSlide].eyebrow}</span>
         <h1 className="hero-title" style={{ whiteSpace: 'pre-line' }}>
           {slides[currentSlide].title}
         </h1>
         <p className="hero-desc">
           {slides[currentSlide].desc}
         </p>
-        <div className="hero-buttons">
-          <Link href="#contact" className="btn btn-primary">
-            GET A FREE QUOTE
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" style={{ marginLeft: '8px' }}>
-              <line x1="5" y1="12" x2="19" y2="12"></line>
-              <polyline points="12 5 19 12 12 19"></polyline>
-            </svg>
+        <div className="hero-buttons" style={{ marginBottom: '30px' }}>
+          <Link href={slides[currentSlide].button1Link} className="btn btn-primary">
+            {slides[currentSlide].button1}
           </Link>
-          <Link href="#projects" className="btn btn-outline-white">
-            VIEW OUR PROJECTS
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" style={{ marginLeft: '8px' }}>
-              <line x1="5" y1="12" x2="19" y2="12"></line>
-              <polyline points="12 5 19 12 12 19"></polyline>
-            </svg>
-          </Link>
+          {slides[currentSlide].button2 && (
+            <Link href={slides[currentSlide].button2Link} className="btn btn-outline-white">
+              {slides[currentSlide].button2}
+            </Link>
+          )}
+        </div>
+        <div className="hero-trust-line">
+          {slides[currentSlide].trust}
         </div>
       </div>
       
@@ -76,7 +91,9 @@ export default function HeroSlider() {
             className={`indicator ${index === currentSlide ? 'active' : ''}`}
             onClick={() => setCurrentSlide(index)}
             aria-label={`Go to slide ${index + 1}`}
-          />
+          >
+            {String(index + 1).padStart(2, '0')}
+          </button>
         ))}
       </div>
     </section>
