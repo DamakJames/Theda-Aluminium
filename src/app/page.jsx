@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import { testimonials } from '@/data/testimonials';
 
 export default function HomePage() {
   return (
@@ -93,7 +94,7 @@ export default function HomePage() {
               <span className="section-tag">About THEDA</span>
               <h2 className="section-title">Building Strong Roofs Since 2015</h2>
               <p className="about-text">
-                THEDA Aluminium Ltd is one of Nigeria's trusted roofing and construction companies, incorporated in 2015 and operating from modern facilities in Kaduna with a representative office in Abuja.
+                THEDA Aluminium Ltd is one of Nigeria&apos;s trusted roofing and construction companies, incorporated in 2015 and operating from modern facilities in Kaduna with a representative office in Abuja.
               </p>
               <p className="about-text">
                 We specialize in supplying premium roofing materials and delivering complete roofing solutions—from design and fabrication to installation and maintenance.
@@ -267,7 +268,35 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 6. Contact CTA Banner */}
+      {/* 6. Testimonials Section */}
+      <section className="testimonials-section" id="testimonials" style={{ padding: '80px 0', background: 'var(--gray-50)' }}>
+        <div className="container">
+          <div style={{ textAlign: 'center', marginBottom: '40px' }}>
+            <span className="section-tag" style={{ justifyContent: 'center', display: 'flex' }}>CLIENT FEEDBACK</span>
+            <h2 className="section-title">What Our Clients Say</h2>
+          </div>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '30px' }}>
+            {testimonials.map((testimonial) => (
+              <div key={testimonial.id} style={{ background: 'white', padding: '30px', borderRadius: 'var(--radius-md)', boxShadow: 'var(--shadow-sm)' }}>
+                <div style={{ display: 'flex', gap: '5px', marginBottom: '15px', color: '#fbbf24' }}>
+                  {[...Array(testimonial.rating || 5)].map((_, i) => (
+                    <svg key={i} width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                      <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                    </svg>
+                  ))}
+                </div>
+                <p style={{ color: 'var(--gray-600)', fontStyle: 'italic', marginBottom: '20px', lineHeight: '1.6' }}>&quot;{testimonial.content}&quot;</p>
+                <div>
+                  <h4 style={{ color: 'var(--gray-900)', fontWeight: '600', marginBottom: '2px' }}>{testimonial.client_name}</h4>
+                  <p style={{ color: 'var(--gray-500)', fontSize: '0.9rem' }}>{testimonial.company}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 7. Contact CTA Banner */}
       <section className="cta-section" id="contact">
         <div className="container">
           <div style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center', width: '64px', height: '64px', borderRadius: '50%', background: 'rgba(255,255,255,0.2)', marginBottom: '24px' }}>
@@ -275,9 +304,9 @@ export default function HomePage() {
               <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
             </svg>
           </div>
-          <h2 className="cta-title">Ready to Start Your Project? Let's Build Something Great Together!</h2>
+          <h2 className="cta-title">Ready to Start Your Project? Let&apos;s Build Something Great Together!</h2>
           <p className="cta-desc">
-            Partner with one of Nigeria's trusted roofing specialists for quality materials, expert installation, and reliable project delivery. Contact us today for a free consultation and quote.
+            Partner with one of Nigeria&apos;s trusted roofing specialists for quality materials, expert installation, and reliable project delivery. Contact us today for a free consultation and quote.
           </p>
           <Link href="/contact" className="btn btn-white">
             GET A FREE QUOTE

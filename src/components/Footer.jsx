@@ -8,14 +8,8 @@ export default function Footer() {
         <div className="footer-grid">
           {/* Col 1: Brand & Description */}
           <div className="footer-col">
-            <div className="footer-logo">
-              <div className="logo-symbol" style={{ width: '40px', height: '40px', background: 'var(--white)', borderRadius: '8px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--primary-blue)" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M3 12L12 3l9 9"></path>
-                  <path d="M4 11v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-9"></path>
-                </svg>
-              </div>
-              <span>THEDA</span>
+            <div className="footer-logo" style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '16px' }}>
+              <img src="/thedalgo.svg" alt="THEDA Aluminium Ltd" style={{ height: '40px', width: 'auto' }} />
             </div>
             <p style={{ color: 'var(--gray-400)', marginBottom: '24px', lineHeight: '1.6' }}>
               Your trusted partner for premium roofing solutions, construction and facility management services.
