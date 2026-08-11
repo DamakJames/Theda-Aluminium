@@ -42,7 +42,7 @@ export default function AboutPage() {
             </div>
             
             <div className="about-image" style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
-              <img src="/image/stacked-green-step-tile-sheets.jpg" alt="THEDA step tile sheets" style={{ borderRadius: 'var(--radius-lg)', width: '100%', height: '300px', objectFit: 'cover' }} />
+              <img src="/image/theda-aluminium-factory-exterior.jpg" alt="THEDA Aluminium Factory Exterior" style={{ borderRadius: 'var(--radius-lg)', width: '100%', height: '300px', objectFit: 'cover' }} />
               <img src="/image/theda-engineering-team-site-visit.png" alt="THEDA Engineering Team Site Visit" style={{ borderRadius: 'var(--radius-lg)', width: '100%', height: '300px', objectFit: 'cover' }} />
             </div>
           </div>
