@@ -10,7 +10,7 @@ export const metadata = {
 export default function ServicesPage() {
   return (
     <main>
-      <section className="hero-section inner-header" style={{ backgroundImage: 'linear-gradient(135deg, rgba(10, 61, 145, 0.85) 0%, rgba(10, 61, 145, 0.7) 100%), url(https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1920&q=80)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+      <section className="hero-section inner-header" style={{ backgroundImage: 'linear-gradient(135deg, rgba(10, 61, 145, 0.85) 0%, rgba(10, 61, 145, 0.7) 100%), url(/image/green-long-span-industrial-roofing.jpg)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <div className="container hero-content" style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
           <h1 className="hero-title" style={{ color: 'var(--white)' }}>Our Services</h1>
           <p className="hero-desc" style={{ color: 'rgba(255,255,255,0.9)' }}>Comprehensive roofing and structural solutions tailored to your needs.</p>
@@ -29,9 +29,9 @@ export default function ServicesPage() {
           <div style={{ display: 'grid', gap: '60px' }}>
             
             {/* Service 1 */}
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '40px', alignItems: 'center' }}>
+            <div className="service-block">
               <div>
-                <img src="https://images.unsplash.com/photo-1516216628859-9bccecab13ca?auto=format&fit=crop&w=800&q=80" alt="Aluminium Sheets" style={{ borderRadius: 'var(--radius-lg)', width: '100%', height: '350px', objectFit: 'cover' }} />
+                <img src="/image/stacked-green-step-tile-sheets.jpg" alt="Aluminium Sheets" style={{ borderRadius: 'var(--radius-lg)', width: '100%', height: '350px', objectFit: 'cover' }} />
               </div>
               <div>
                 <h3 style={{ fontSize: '2rem', color: 'var(--primary-blue)', marginBottom: '16px' }}>Aluminium & Steel Sheets</h3>
@@ -56,11 +56,11 @@ export default function ServicesPage() {
             </div>
 
             {/* Service 2 */}
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '40px', alignItems: 'center' }}>
+            <div className="service-block">
               <div className="service-image">
-                <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=800&q=80" alt="Steel Structures" style={{ borderRadius: 'var(--radius-lg)', width: '100%', height: '350px', objectFit: 'cover' }} />
+                <img src="/image/large-hall-steel-truss-roof-2.jpg" alt="Steel Structures" style={{ borderRadius: 'var(--radius-lg)', width: '100%', height: '350px', objectFit: 'cover' }} />
               </div>
-              <div style={{ order: 1 }}>
+              <div>
                 <h3 style={{ fontSize: '2rem', color: 'var(--primary-blue)', marginBottom: '16px' }}>Steel & Wooden Roof Structures</h3>
                 <p className="about-text" style={{ marginBottom: '20px' }}>
                   The integrity of a roof lies in its structural foundation. We specialize in the design, fabrication, and installation of highly durable steel structural roofing systems and expertly crafted wooden roof trusses. Whether it&apos;s a massive warehouse or a complex residential design, we engineer structures built to last generations.
@@ -70,9 +70,9 @@ export default function ServicesPage() {
             </div>
 
             {/* Service 3 */}
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '40px', alignItems: 'center' }}>
+            <div className="service-block">
               <div>
-                <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80" alt="Roof Maintenance" style={{ borderRadius: 'var(--radius-lg)', width: '100%', height: '350px', objectFit: 'cover' }} />
+                <img src="/image/residential-red-roof-installation.jpg" alt="Roof Maintenance" style={{ borderRadius: 'var(--radius-lg)', width: '100%', height: '350px', objectFit: 'cover' }} />
               </div>
               <div>
                 <h3 style={{ fontSize: '2rem', color: 'var(--primary-blue)', marginBottom: '16px' }}>Maintenance & Facility Management</h3>

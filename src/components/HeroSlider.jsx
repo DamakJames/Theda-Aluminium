@@ -5,17 +5,17 @@ import Link from 'next/link';
 
 const slides = [
   {
-    image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1920&q=85',
+    image: '/image/theda-aluminium-roofing-team.jpg',
     title: 'Building Strong Roofs.\nDelivering Excellence.',
     desc: 'Top-quality roofing sheets, roof structures and maintenance services for residential, commercial, and industrial projects across Nigeria.',
   },
   {
-    image: 'https://images.unsplash.com/photo-1554469384-e58fac16e23a?auto=format&fit=crop&w=1920&q=85',
+    image: '/image/large-hall-steel-truss-roof-1.jpg',
     title: 'Expert Structural\nSteel Roofing.',
     desc: 'Unmatched durability for warehouses, factories, and massive commercial facilities built to stand the test of time.',
   },
   {
-    image: 'https://images.unsplash.com/photo-1605276374104-a628b0969f6e?auto=format&fit=crop&w=1920&q=85',
+    image: '/image/residential-stone-coated-roofing.jpg',
     title: 'Premium Aluminium\nStep-Tile & Metcopo.',
     desc: 'Aesthetic appeal meets extreme weather resistance. Transform your home with our elegant roofing designs.',
   }
