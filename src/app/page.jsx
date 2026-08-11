@@ -96,8 +96,8 @@ export default function HomePage() {
             </div>
             <div className="about-image">
               <img 
-                src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=800&q=80" 
-                alt="Roof construction site" 
+                src="/image/theda-aluminium-factory-exterior.jpg" 
+                alt="THEDA Aluminium factory" 
                 style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: 'var(--radius-lg)' }}
               />
             </div>
@@ -215,7 +215,7 @@ export default function HomePage() {
             
             <div className="project-card">
               <div className="project-img-wrap">
-                <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=600&q=80" alt="Residential Roofing" />
+                <img src="/image/residential-red-roof-installation.jpg" alt="Residential Roofing" />
               </div>
               <div className="project-info">
                 <h4 className="project-title">Residential Roofing</h4>
@@ -225,7 +225,7 @@ export default function HomePage() {
 
             <div className="project-card">
               <div className="project-img-wrap">
-                <img src="https://images.unsplash.com/photo-1554469384-e58fac16e23a?auto=format&fit=crop&w=600&q=80" alt="Commercial Building" />
+                <img src="/image/large-hall-steel-truss-roof-3.jpg" alt="Commercial Building" />
               </div>
               <div className="project-info">
                 <h4 className="project-title">Commercial Building</h4>
@@ -235,7 +235,7 @@ export default function HomePage() {
 
             <div className="project-card">
               <div className="project-img-wrap">
-                <img src="https://images.unsplash.com/photo-1437603568260-1950d3ca6eab?auto=format&fit=crop&w=600&q=80" alt="Church Project" />
+                <img src="/image/throne-room-kafanchan-project.jpg" alt="Church Project" />
               </div>
               <div className="project-info">
                 <h4 className="project-title">Church Project</h4>

@@ -42,8 +42,8 @@ export default function AboutPage() {
             </div>
             
             <div className="about-image" style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
-              <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=800&q=80" alt="Roof construction site" style={{ borderRadius: 'var(--radius-lg)', width: '100%', height: '300px', objectFit: 'cover' }} />
-              <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80" alt="Roofing materials" style={{ borderRadius: 'var(--radius-lg)', width: '100%', height: '300px', objectFit: 'cover' }} />
+              <img src="/image/stacked-green-step-tile-sheets.jpg" alt="THEDA step tile sheets" style={{ borderRadius: 'var(--radius-lg)', width: '100%', height: '300px', objectFit: 'cover' }} />
+              <img src="/image/green-long-span-roofing-production.jpg" alt="Roofing production" style={{ borderRadius: 'var(--radius-lg)', width: '100%', height: '300px', objectFit: 'cover' }} />
             </div>
           </div>
         </div>

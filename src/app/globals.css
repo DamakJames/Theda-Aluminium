@@ -599,20 +599,22 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
   left: 0;
   right: 0;
-  background: linear-gradient(to top, rgba(10, 61, 145, 0.9) 0%, transparent 100%);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.3) 60%, transparent 100%);
   padding: 32px 24px 24px;
-  color: var(--white);
+  color: var(--white) !important;
 }
 
 .project-title {
-  color: var(--white);
-  font-size: 1.125rem;
+  color: var(--white) !important;
+  font-size: 1rem;
   margin-bottom: 4px;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.8);
 }
 
 .project-category {
-  font-size: 0.875rem;
-  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.9) !important;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.8);
 }
 
 /* ==========================================================================
