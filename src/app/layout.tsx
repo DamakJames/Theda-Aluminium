@@ -67,8 +67,9 @@ const jsonLd = {
     "closes": "18:00"
   },
   "sameAs": [
-    "https://facebook.com/thedaaluminium",
-    "https://instagram.com/thedaaluminium"
+    "https://web.facebook.com/thedaaluminiumltd",
+    "https://www.instagram.com/theda_aluminium_ltd/",
+    "https://www.linkedin.com/company/thedaaluminiumltd"
   ]
 };
 
