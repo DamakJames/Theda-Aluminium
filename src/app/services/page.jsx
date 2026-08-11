@@ -1,6 +1,11 @@
 import React from 'react';
 import Link from 'next/link';
 
+export const metadata = {
+  title: "Roofing Services | THEDA Aluminium Ltd",
+  description: "Explore our comprehensive roofing services including aluminium sheets, structural steel design, and facility maintenance.",
+};
+
 export default function ServicesPage() {
   return (
     <main>

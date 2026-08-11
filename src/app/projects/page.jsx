@@ -2,6 +2,11 @@ import React from 'react';
 import Link from 'next/link';
 import { projects } from '@/data/projects';
 
+export const metadata = {
+  title: "Our Projects | THEDA Aluminium Ltd",
+  description: "View our gallery of completed residential, commercial, and industrial roofing projects across Nigeria.",
+};
+
 export default function ProjectsPage() {
 
   return (

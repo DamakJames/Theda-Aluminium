@@ -1,6 +1,11 @@
 import React from 'react';
 import Link from 'next/link';
 
+export const metadata = {
+  title: "About Us | THEDA Aluminium Ltd",
+  description: "Learn about THEDA Aluminium Ltd, our history since 2015, and our commitment to premium roofing solutions across Nigeria.",
+};
+
 export default function AboutPage() {
   return (
     <main>
