@@ -12,7 +12,7 @@ export default function Header() {
         <div className="header-content">
           {/* Brand Logo */}
           <Link href="/" className="brand-logo" style={{ display: 'flex', alignItems: 'center' }}>
-            <img src="/thedalgo.svg" alt="THEDA Aluminium Ltd" style={{ height: '72px', width: 'auto' }} />
+            <img src="/thedalgo.svg" alt="THEDA Aluminium Ltd" className="brand-logo-img" />
           </Link>
 
           {/* Main Navigation Bar */}

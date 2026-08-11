@@ -209,6 +209,11 @@ h1, h2, h3, h4, h5, h6 {
   gap: 12px;
 }
 
+.brand-logo-img {
+  height: 64px;
+  width: auto;
+}
+
 .logo-symbol {
   display: flex;
   align-items: center;
@@ -792,11 +797,30 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 768px) {
+  .brand-logo-img {
+    height: 44px;
+  }
+  .header-content {
+    padding: 12px 20px;
+  }
+  .hero-section {
+    height: auto;
+    min-height: 85vh;
+    padding: 100px 0 80px 0;
+  }
   .hero-overlay {
     background: linear-gradient(to right, rgba(5, 45, 105, 0.95) 0%, rgba(5, 45, 105, 0.85) 100%);
   }
+  .hero-subtitle-badge {
+    margin-bottom: 15px;
+  }
   .hero-title {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+  }
+  .hero-desc {
+    font-size: 1rem;
+    margin-bottom: 25px;
   }
   .rc-number {
     display: none;
