@@ -801,8 +801,8 @@ h1, h2, h3, h4, h5, h6 {
   }
   .hero-section {
     height: auto;
-    min-height: 85vh;
-    padding: 130px 0 100px 0;
+    min-height: calc(100vh - 70px);
+    padding: 60px 0;
   }
   .hero-overlay {
     background: linear-gradient(to right, rgba(5, 45, 105, 0.95) 0%, rgba(5, 45, 105, 0.85) 100%);
@@ -817,6 +817,10 @@ h1, h2, h3, h4, h5, h6 {
   .hero-desc {
     font-size: 1rem;
     margin-bottom: 25px;
+  }
+  .hero-trust-line {
+    font-size: 0.8rem;
+    line-height: 1.4;
   }
   .rc-number {
     display: none;
