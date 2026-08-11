@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="footer-grid">
           {/* Col 1: Brand & Description */}
           <div className="footer-col">
-            <div className="footer-logo" style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '16px' }}>
+            <div className="footer-logo" style={{ display: 'inline-flex', alignItems: 'center', gap: '10px', marginBottom: '16px', background: '#ffffff', padding: '10px 20px', borderRadius: '8px' }}>
               <img src="/thedalgo.svg" alt="THEDA Aluminium Ltd" style={{ height: '40px', width: 'auto' }} />
             </div>
             <p style={{ color: 'var(--gray-400)', marginBottom: '24px', lineHeight: '1.6' }}>

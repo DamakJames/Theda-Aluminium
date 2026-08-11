@@ -3,7 +3,8 @@ import Link from 'next/link';
 
 export const metadata = {
   title: "About Us | THEDA Aluminium Ltd",
-  description: "Learn about THEDA Aluminium Ltd, our history since 2015, and our commitment to premium roofing solutions across Nigeria.",
+  description: "Learn about THEDA Aluminium Ltd, our history, mission, and commitment to delivering the best roofing solutions in Nigeria since 2015.",
+  keywords: ["about THEDA aluminium", "roofing company history Nigeria", "best roofing company Kaduna", "top roofing company Abuja", "aluminium roofing experts", "roofing construction company"],
 };
 
 export default function AboutPage() {

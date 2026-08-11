@@ -5,6 +5,7 @@ import { blogPosts } from '@/data/blog';
 export const metadata = {
   title: 'Blog & News | THEDA Aluminium Ltd',
   description: 'Read the latest industry news, roofing tips, and material guides from the experts at THEDA Aluminium Ltd.',
+  keywords: ["roofing blog Nigeria", "aluminium roofing tips", "roof maintenance guide", "roofing materials comparison", "THEDA aluminium news"],
 };
 
 export default function BlogPage() {

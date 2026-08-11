@@ -4,6 +4,7 @@ import Link from 'next/link';
 export const metadata = {
   title: "Roofing Services | THEDA Aluminium Ltd",
   description: "Explore our comprehensive roofing services including aluminium sheets, structural steel design, and facility maintenance.",
+  keywords: ["roofing services Nigeria", "roof installation Kaduna", "structural steel design", "roof maintenance Abuja", "industrial roofing services", "residential roofers Nigeria"],
 };
 
 export default function ServicesPage() {
