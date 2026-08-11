@@ -192,6 +192,10 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: var(--shadow-sm);
 }
 
+.mobile-menu-btn {
+  display: none;
+}
+
 .header-content {
   display: flex;
   align-items: center;
@@ -266,13 +270,57 @@ h1, h2, h3, h4, h5, h6 {
    ========================================================================== */
 .hero-section {
   position: relative;
-  background-image: linear-gradient(135deg, rgba(10, 61, 145, 0.95) 0%, rgba(10, 61, 145, 0.75) 100%),
-                    url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1920&q=85');
-  background-size: cover;
-  background-position: center;
-  padding: 100px 0 120px 0;
+  height: 85vh;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: var(--white);
   text-align: center;
+  overflow: hidden;
+}
+
+.hero-slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  z-index: 1;
+}
+
+.hero-slide.active {
+  opacity: 1;
+  z-index: 2;
+}
+
+.hero-indicators {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+  z-index: 10;
+}
+
+.indicator {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.4);
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.indicator.active {
+  background: var(--white);
+  transform: scale(1.2);
 }
 
 .hero-content {
@@ -662,6 +710,9 @@ h1, h2, h3, h4, h5, h6 {
   }
   .main-nav, .header-actions {
     display: none;
+  }
+  .mobile-menu-btn {
+    display: block;
   }
 }
 

@@ -1,39 +1,14 @@
 import React from 'react';
 import Link from 'next/link';
 import { testimonials } from '@/data/testimonials';
+import { projects } from '@/data/projects';
+import HeroSlider from '@/components/HeroSlider';
 
 export default function HomePage() {
   return (
     <main>
-      {/* 1. Hero Banner */}
-      <section className="hero-section">
-        <div className="container hero-content">
-          <span className="hero-subtitle-badge">PREMIUM ROOFING & CONSTRUCTION SOLUTIONS</span>
-          <h1 className="hero-title">
-            Building Strong Roofs.<br />
-            Delivering Excellence.
-          </h1>
-          <p className="hero-desc">
-            Top-quality roofing sheets, roof structures and maintenance services for residential, commercial, and industrial projects across Nigeria.
-          </p>
-          <div className="hero-buttons">
-            <Link href="#contact" className="btn btn-primary">
-              GET A FREE QUOTE
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
-                <line x1="5" y1="12" x2="19" y2="12"></line>
-                <polyline points="12 5 19 12 12 19"></polyline>
-              </svg>
-            </Link>
-            <Link href="#projects" className="btn btn-outline-white">
-              VIEW OUR PROJECTS
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                <line x1="5" y1="12" x2="19" y2="12"></line>
-                <polyline points="12 5 19 12 12 19"></polyline>
-              </svg>
-            </Link>
-          </div>
-        </div>
-      </section>
+      {/* 1. Hero Slider */}
+      <HeroSlider />
 
       {/* 2. Trust Badges Strip */}
       <div className="container">
@@ -120,7 +95,11 @@ export default function HomePage() {
               </div>
             </div>
             <div className="about-image">
-              <img src="https://images.unsplash.com/photo-1541888081622-155e81f1e914?auto=format&fit=crop&w=800&q=80" alt="Roof construction site" />
+              <img 
+                src="https://images.unsplash.com/photo-1541888081622-155e81f1e914?auto=format&fit=crop&w=800&q=80" 
+                alt="Roof construction site" 
+                style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: 'var(--radius-lg)' }}
+              />
             </div>
           </div>
         </div>
@@ -264,6 +243,40 @@ export default function HomePage() {
               </div>
             </div>
 
+          </div>
+        </div>
+      </section>
+
+      {/* 5. Recent Projects Gallery */}
+      <section className="projects-section" id="projects" style={{ padding: '80px 0' }}>
+        <div className="container">
+          <div style={{ textAlign: 'center', marginBottom: '40px' }}>
+            <span className="section-tag" style={{ justifyContent: 'center', display: 'flex' }}>OUR WORK</span>
+            <h2 className="section-title">Recent Projects</h2>
+          </div>
+          
+          <div className="projects-grid" style={{ display: 'grid', gap: '30px', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))' }}>
+            {projects.slice(0, 3).map((project) => (
+              <div key={project.id} className="project-card" style={{ background: 'white', borderRadius: 'var(--radius-md)', overflow: 'hidden', boxShadow: 'var(--shadow-sm)' }}>
+                <div className="project-img-wrap" style={{ height: '240px', overflow: 'hidden' }}>
+                  <img 
+                    src={project.image_url} 
+                    alt={project.title} 
+                    style={{ width: '100%', height: '100%', objectFit: 'cover', transition: 'transform 0.3s ease' }} 
+                  />
+                </div>
+                <div className="project-info" style={{ padding: '20px' }}>
+                  <h4 className="project-title" style={{ fontSize: '1.25rem', color: 'var(--gray-900)', marginBottom: '8px' }}>{project.title}</h4>
+                  <p className="project-category" style={{ color: 'var(--gray-500)', fontSize: '0.9rem' }}>{project.category}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          <div style={{ textAlign: 'center', marginTop: '40px' }}>
+            <Link href="/projects" className="btn btn-outline">
+              VIEW ALL PROJECTS
+            </Link>
           </div>
         </div>
       </section>
