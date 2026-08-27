@@ -2,9 +2,9 @@ import React from 'react';
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Roofing Services | THEDA Aluminium Ltd",
-  description: "Explore our comprehensive roofing services including aluminium sheets, structural steel design, and facility maintenance.",
-  keywords: ["roofing services Nigeria", "roof installation Kaduna", "structural steel design", "roof maintenance Abuja", "industrial roofing services", "residential roofers Nigeria"],
+  title: "Roofing Services | THEDA Aluminium Ltd - First Nigeria Aluminium",
+  description: "Explore our comprehensive roofing services at THEDA Aluminium Ltd. From First Nigeria Aluminium sheets to structural steel design and facility maintenance in Kaduna, Abuja, North, and all of Nigeria.",
+  keywords: ["First Nigeria Aluminium", "roofing services Nigeria", "roof installation Kaduna", "structural steel design Northern Nigeria", "roof maintenance Abuja", "industrial roofing services Nigeria", "residential roofers Nigeria"],
 };
 
 export default function ServicesPage() {

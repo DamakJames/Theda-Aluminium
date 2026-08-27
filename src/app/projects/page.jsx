@@ -3,9 +3,9 @@ import Link from 'next/link';
 import { projects } from '@/data/projects';
 
 export const metadata = {
-  title: "Our Projects | THEDA Aluminium Ltd",
-  description: "View our portfolio of completed roofing and construction projects across Nigeria, including residential, commercial, and industrial structures.",
-  keywords: ["roofing projects Nigeria", "THEDA aluminium portfolio", "commercial roofing projects Kaduna", "industrial warehouse roofing", "residential roof designs Nigeria", "completed roof installations"],
+  title: "Our Projects | THEDA Aluminium Ltd - First Nigeria Aluminium",
+  description: "View the portfolio of completed roofing and construction projects across Nigeria by THEDA Aluminium Ltd, First Nigeria Aluminium experts. Serving Kaduna, Abuja, and Northern Nigeria.",
+  keywords: ["First Nigeria Aluminium", "roofing projects Nigeria", "THEDA aluminium portfolio", "commercial roofing projects Kaduna", "industrial warehouse roofing Abuja", "residential roof designs Northern Nigeria", "completed roof installations"],
 };
 
 export default function ProjectsPage() {

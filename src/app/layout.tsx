@@ -7,18 +7,19 @@ import WhatsAppButton from "../components/WhatsAppButton";
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://thedaaluminium.com'),
-  title: "THEDA Aluminium Ltd — Premium Roofing & Construction Solutions",
-  description: "Top-quality roofing sheets, structural roof designs, and maintenance services for residential, commercial, and industrial projects across Nigeria.",
+  title: "THEDA Aluminium Ltd | First Nigeria Aluminium & Roofing Solutions",
+  description: "THEDA Aluminium Ltd is your premier choice for First Nigeria Aluminium roofing sheets, structural roof designs, and maintenance. Serving Kaduna, Abuja, Northern Nigeria, and nationwide.",
   keywords: [
-    "roofing company Nigeria", "aluminium roofing sheets", "steel roof structures", "roofing contractors Kaduna", 
-    "roofing contractors Abuja", "step-tile aluminium", "long-span aluminium", "metcopo roofing", 
-    "stone coated roof tiles", "industrial roofing", "warehouse roofing", "residential roofing", 
-    "roof maintenance Nigeria", "roof installation services", "THEDA aluminium", "best roofing company in Nigeria",
+    "First Nigeria Aluminium", "First Aluminium Nigeria", "roofing company Nigeria", "Northern Nigeria roofing", 
+    "aluminium roofing sheets", "steel roof structures", "roofing contractors Kaduna", "roofing company Abuja",
+    "step-tile aluminium", "long-span aluminium", "metcopo roofing", "stone coated roof tiles", 
+    "industrial roofing", "warehouse roofing", "residential roofing", "roof maintenance Nigeria", 
+    "roof installation services", "THEDA aluminium", "best roofing company in North Nigeria",
     "affordable roofing sheets", "structural steel fabrication", "roofing quotes Abuja", "roofing quotes Kaduna"
   ],
   openGraph: {
-    title: "THEDA Aluminium Ltd — Premium Roofing & Construction Solutions",
-    description: "Top-quality roofing sheets, structural roof designs, and maintenance services for residential, commercial, and industrial projects across Nigeria.",
+    title: "THEDA Aluminium Ltd | First Nigeria Aluminium & Roofing Solutions",
+    description: "THEDA Aluminium Ltd is your premier choice for First Nigeria Aluminium roofing sheets, structural roof designs, and maintenance. Serving Kaduna, Abuja, Northern Nigeria, and nationwide.",
     url: 'https://thedaaluminium.com',
     siteName: 'THEDA Aluminium Ltd',
     images: [

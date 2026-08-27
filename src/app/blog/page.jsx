@@ -3,9 +3,9 @@ import Link from 'next/link';
 import { blogPosts } from '@/data/blog';
 
 export const metadata = {
-  title: 'Blog & News | THEDA Aluminium Ltd',
-  description: 'Read the latest industry news, roofing tips, and material guides from the experts at THEDA Aluminium Ltd.',
-  keywords: ["roofing blog Nigeria", "aluminium roofing tips", "roof maintenance guide", "roofing materials comparison", "THEDA aluminium news"],
+  title: 'Blog & News | THEDA Aluminium Ltd - First Nigeria Aluminium',
+  description: 'Read the latest industry news, roofing tips, and material guides from the experts at THEDA Aluminium Ltd, the First Nigeria Aluminium company serving Kaduna, Abuja, and Northern Nigeria.',
+  keywords: ["First Nigeria Aluminium", "roofing blog Nigeria", "aluminium roofing tips Kaduna", "roof maintenance guide Abuja", "roofing materials Northern Nigeria", "THEDA aluminium news"],
 };
 
 export default function BlogPage() {
