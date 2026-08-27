@@ -22,7 +22,7 @@ export default function ServicesPage() {
           <div style={{ maxWidth: '800px', margin: '0 auto 60px auto', textAlign: 'center' }}>
             <h2 className="section-title">What We Do Best</h2>
             <p className="about-text">
-              At THEDA Aluminium Ltd, we provide end-to-end solutions for residential, commercial, and industrial properties. Our expertise spans from manufacturing and supplying premium materials to the final installation and long-term maintenance.
+              At THEDA Aluminium Ltd, we provide end-to-end solutions for residential, commercial, and industrial properties. Our expertise spans from manufacturing premium materials to final installation. We are fully equipped to handle any type of roof structure, no matter how complex the design or scale.
             </p>
           </div>
 

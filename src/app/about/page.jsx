@@ -33,7 +33,7 @@ export default function AboutPage() {
                 Over the years, we have built up a reputation for quality and high standards of service from Chartered Aluminium and First Aluminium Plc. with considerable emphasis placed on training on all technical matters and installation operations. We also undertake Steel roof structures and Roof woodwork.
               </p>
               <p className="about-text">
-                We have successfully executed numerous roof installations, cutting across the facets of the economy of the country, and we look forward to being able to discuss with you future projects and to the possibility of supplying you.
+                We have successfully executed numerous roof installations, cutting across all facets of the economy. We possess the technical expertise and capacity to handle any type of roof, no matter how complex the structure or scale, and we look forward to discussing your future projects.
               </p>
               
               <div style={{ marginTop: '40px' }}>

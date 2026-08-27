@@ -110,6 +110,9 @@ export default function HomePage() {
         <div className="container">
           <span className="section-tag" style={{ justifyContent: 'center', display: 'flex' }}>OUR SERVICES</span>
           <h2 className="section-title">Complete Roofing & Construction Solutions</h2>
+          <p className="about-text" style={{ textAlign: 'center', maxWidth: '700px', margin: '0 auto 40px auto' }}>
+            We have the expertise and technical capacity to handle any type of roof structure, no matter how complex the design or scale.
+          </p>
           
           <div className="services-grid">
             
