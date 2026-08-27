@@ -35,11 +35,11 @@ export const projects = [
   },
   {
     id: 6,
-    title: 'Residential Red Roof',
-    category: 'Residential',
+    title: 'Church Project',
+    category: 'Long-Span Aluminium',
     service: 'Complete Roofing System',
     image_url: '/image/residential-red-roof-installation.jpg',
-    description: 'A residential building roofed with striking red step-tile aluminium sheets.'
+    description: 'A church building roofed with striking red long-span aluminium sheets.'
   },
   {
     id: 7,

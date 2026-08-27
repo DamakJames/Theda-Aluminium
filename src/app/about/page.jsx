@@ -24,10 +24,16 @@ export default function AboutPage() {
               <span className="section-tag">OUR STORY</span>
               <h2 className="section-title">A Decade of Excellence in Roofing</h2>
               <p className="about-text">
-                THEDA Aluminium Ltd is one of Nigeria&apos;s most trusted roofing and construction companies. Incorporated in 2015, we operate from our modern, state-of-the-art facilities in Kaduna, with a representative office in Abuja, allowing us to serve clients nationwide.
+                Theda Aluminium Limited is an upshot of First Aluminium Nigeria Plc. (FAN) which was a part of the Inlaks Group; one of Nigeria's oldest Group of Companies (since 1958).
               </p>
               <p className="about-text">
-                Over the past decade, we have built a reputation for excellence, durability, and unmatched customer service. We specialize in supplying premium roofing materials—including step-tile, long-span, and metcopo aluminium sheets—and delivering complete roofing solutions, from design and structural fabrication (steel and wooden) to installation and long-term maintenance.
+                Theda Aluminium Limited was incorporated on 26th May, 2015. The Company operates from a modern warehouse and office complex in Kaduna, and has representation in Abuja. From its warehouse most materials are normally available ex-stock.
+              </p>
+              <p className="about-text">
+                Over the years, we have built up a reputation for quality and high standards of service from Chartered Aluminium and First Aluminium Plc. with considerable emphasis placed on training on all technical matters and installation operations. We also undertake Steel roof structures and Roof woodwork.
+              </p>
+              <p className="about-text">
+                We have successfully executed numerous roof installations, cutting across the facets of the economy of the country, and we look forward to being able to discuss with you future projects and to the possibility of supplying you.
               </p>
               
               <div style={{ marginTop: '40px' }}>
@@ -54,15 +60,15 @@ export default function AboutPage() {
         <div className="container">
           <div className="stats-grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))' }}>
             <div className="stat-item" style={{ background: 'var(--white)', padding: '30px', borderRadius: 'var(--radius-md)', boxShadow: 'var(--shadow-sm)' }}>
-              <h3 style={{ fontSize: '2.5rem', color: 'var(--primary-blue)', marginBottom: '10px' }}>10+</h3>
+              <h3 style={{ fontSize: '2.5rem', color: 'var(--primary-blue)', marginBottom: '10px' }}>20+</h3>
               <p style={{ fontWeight: '600', color: 'var(--gray-600)' }}>Years of Experience</p>
             </div>
             <div className="stat-item" style={{ background: 'var(--white)', padding: '30px', borderRadius: 'var(--radius-md)', boxShadow: 'var(--shadow-sm)' }}>
-              <h3 style={{ fontSize: '2.5rem', color: 'var(--primary-blue)', marginBottom: '10px' }}>500+</h3>
+              <h3 style={{ fontSize: '2.5rem', color: 'var(--primary-blue)', marginBottom: '10px' }}>250+</h3>
               <p style={{ fontWeight: '600', color: 'var(--gray-600)' }}>Projects Completed</p>
             </div>
             <div className="stat-item" style={{ background: 'var(--white)', padding: '30px', borderRadius: 'var(--radius-md)', boxShadow: 'var(--shadow-sm)' }}>
-              <h3 style={{ fontSize: '2.5rem', color: 'var(--primary-blue)', marginBottom: '10px' }}>100%</h3>
+              <h3 style={{ fontSize: '2.5rem', color: 'var(--primary-blue)', marginBottom: '10px' }}>99.9%</h3>
               <p style={{ fontWeight: '600', color: 'var(--gray-600)' }}>Customer Satisfaction</p>
             </div>
             <div className="stat-item" style={{ background: 'var(--white)', padding: '30px', borderRadius: 'var(--radius-md)', boxShadow: 'var(--shadow-sm)' }}>

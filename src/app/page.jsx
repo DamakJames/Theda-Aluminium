@@ -77,15 +77,15 @@ export default function HomePage() {
               
               <div className="stats-grid">
                 <div className="stat-item">
-                  <h3>10+</h3>
+                  <h3>20+</h3>
                   <p>Years of Experience</p>
                 </div>
                 <div className="stat-item">
-                  <h3>500+</h3>
+                  <h3>250+</h3>
                   <p>Projects Completed</p>
                 </div>
                 <div className="stat-item">
-                  <h3>100%</h3>
+                  <h3>99.9%</h3>
                   <p>Customer Satisfaction</p>
                 </div>
                 <div className="stat-item">
@@ -218,8 +218,8 @@ export default function HomePage() {
                 <img src="/image/residential-red-roof-installation.jpg" alt="Residential Roofing" />
               </div>
               <div className="project-info">
-                <h4 className="project-title">Residential Roofing</h4>
-                <p className="project-category">Step-Tile Aluminium Sheets</p>
+                <h4 className="project-title">Church Project</h4>
+                <p className="project-category">Long-Span Aluminium</p>
               </div>
             </div>
 

@@ -41,10 +41,10 @@ const jsonLd = {
   "image": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1200&q=80",
   "@id": "https://thedaaluminium.com",
   "url": "https://thedaaluminium.com",
-  "telephone": "+2348033316873",
+  "telephone": "+2348033116873",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "No. 19 Park Drive, Opposite Finetex, Kakuri Industrial Layout",
+    "streetAddress": "No. 18-19 PAN Drive, Opposite Finetex, Kakuri Industrial Layout",
     "addressLocality": "Kaduna",
     "addressCountry": "NG"
   },
